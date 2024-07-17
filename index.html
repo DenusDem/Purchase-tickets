@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кінотеатр "Зоряний"</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Кінотеатр "Зоряний"</h1>
+        <select id="movieSelect">
+            <option value="">Виберіть фільм</option>
+            <option value="inception">Початок</option>
+            <option value="shawshank">Втеча з Шоушенка</option>
+            <option value="matrix">Матриця</option>
+            <option value="interstellar">Інтерстеллар</option>
+        </select>
+        <div id="movieDescription"></div>
+        <select id="timeSelect">
+            <option value="">Виберіть час</option>
+            <option value="14:00">14:00</option>
+            <option value="18:00">18:00</option>
+            <option value="21:00">21:00</option>
+        </select>
+        <h2>Виберіть місце</h2>
+        <div id="seatSelection"></div>
+        <button id="buyButton">Купити квиток</button>
+        <div id="ticketInfo"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
